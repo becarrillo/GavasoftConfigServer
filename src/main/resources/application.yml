@@ -9,3 +9,11 @@ spring:
         git:
           uri: https://github.com/becarrillo/Gavasoft-microservices-config.git
           clone-on-start: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    defaultZone: http://gavasoftregistryservice.railway.internal:8761/eureka/
