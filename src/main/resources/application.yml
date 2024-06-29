@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/becarrillo/Gavasoft-microservices-config.git
-          clone-on-start: true
+          clone-on-start: false
 
 eureka:
   instance:
